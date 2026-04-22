@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.button-container {
+  text-align: center; /* Centers the button */
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: transparent; /* Transparent background */
+  color: green;
+  border: 2px solid green;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: rgba(0, 128, 0, 0.1); /* Light transparent green on hover */
+}
